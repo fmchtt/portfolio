@@ -1,8 +1,41 @@
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    background-color: rgba(130, 196, 214, 0.1);
+}
+
+main, footer, header { 
     text-align: center;
+}
+
+header {
+    background: rgb(55, 59, 70);
+}
+
+li > a > img{
+    width: 40px;
+    height: 40px;
+    text-align: left;
+}
+
+li > a {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    text-align: left;
+    position: fixed;
+    top: 40vh;
+    background-color: white;
+    border-radius: 30px;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    padding: 10px;
 }
 
 #presentation p {
@@ -23,15 +56,15 @@ body {
 }
 
 hr {
-    border-color: black;
+    border-color: rgba(0,0,0,0.23);
 }
 
 #icon {
-    border: 2px black solid;
     border-radius: 200px;
     margin-right: 20px;
     width: 300px;
     height: 300px;
+    box-shadow: 0px 0px 8px 6px rgba(255,255,255,0.23);
 }
 
 #presentation {
@@ -43,8 +76,13 @@ hr {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 25px;
     max-width: 1600px;
-    margin: 0 auto;
     padding: 15px;
+    margin: 0 auto;
+}
+
+.card-tall > img {
+    max-width: 100%;
+    border-radius: 5px;
 }
 
 .cards-slim {
@@ -52,25 +90,25 @@ hr {
     grid-template-columns: repeat(6, 1fr);
     grid-gap: 25px;
     max-width: 1600px;
-    margin: 0 auto;
     padding: 15px;
+    margin: 0 auto;
 }
 
 .card-tall {
     padding: 4px;
     height: 395px;
     width: 100%;
-    background: #D2D7D9;
     box-shadow: 0px 0px 4px 3px rgba(0,0,0,0.23);
+    border-radius: 5px;
 }
 
 .card-slim {
     box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.23);
     width: 20%;
-    background: #D2D7D9;
     margin: 0 1%;
     height: 62px;
     width: 100%;
+    border-radius: 5px;
 }
 
 .card-slim > img{
@@ -89,18 +127,37 @@ h3 {
 }
 
 footer {
-    background: #CACFD2;
+    background: rgb(55, 59, 70);
     height: 100px;
+    color: white;
 }
 
 footer > p {
+    padding-top: 20px;
     margin: 0 10px;
-    line-height: 100px;
+}
+
+footer > p > a {
+    color: white;
+    text-decoration: none;
+}
+
+#changer {
+    offset-position: 20px 0 20px 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    border: 1px;
+    background: #ffffff;
+}
+
+#changer > img {
+    max-width: 100%;
 }
 
 [data-anime] {
     opacity: 0;
-    transition: .4s;
+    transition: .3s;
 }
 
 [data-anime="left"] {
@@ -122,4 +179,23 @@ footer > p {
 [data-anime].animate {
     opacity: 1;
     transform: translate3d(0px, 0px, 0px);
+}
+
+
+@media (max-width: 425px) {
+    .cards-tall {
+        display: block;
+    }
+
+    .cards-slim {
+        display: block;
+    }
+
+    .card-tall {
+        margin-bottom: 20px;
+    }
+
+    .card-slim {
+        margin-bottom: 10px;
+    }
 }

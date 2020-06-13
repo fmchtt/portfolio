@@ -11,21 +11,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 
-<body>
-    <main>
+<body id="back">
+    <nav data-anime="left">
+        <ul>
+            <li><a href="www.linkedin.com/in/felipe-micheletto-9670b71b0"><img src="assets/linkedin.png"></a></li>
+            <li><a href="https://github.com/fmchtt"><img src="assets/github.png"></a></li>
+            <li><a href="mailto:felipehmicheletto@gmail.com"><img src="assets/gmail.png"></a></li>
+        </ul>
+    </nav>
+    <header>
         <div id="presentation" data-anime="top">
             <img id="icon" src="assets/perfil.jpg" class="apresentacao">
-            <h1>Bem vindo ao meu portifólio!!</h1>
-            <p>Meu nome é Felipe Micheletto, tenho 18 anos , estou aqui para mostrar do que sou capaz,
-                confira abaixo e explore a vontade tudo o que já fiz.</p>
         </div>
+    </header>
+    <button id='changer' data-anime="left" onclick="escurece()"><img src='assets/lua.png'></button>
+    <main data-anime="bottom">
+        <h1>Bem vindo ao meu portifólio!!</h1>
+            <p>Meu nome é Felipe Micheletto, tenho 18 anos, estou aqui para mostrar do que sou capaz,
+                confira abaixo e explore a vontade tudo o que já fiz.</p>
         <h1>Meus Projetos</h1>
         <div class="cards-tall" data-anime="left">
             <div class="card-tall">
-                <img src="assets/perfil.png">
+                <img src="assets/barcetto.PNG">
                 <hr>
-                <h3>Projeto 1</h3>
-                <p>Descrição do projeto</p>
+                <h3>Site empresarial</h3>
+                <p>Site pensado para apresentação de uma empresa e seus projetos.</p>
             </div>
             <div class="card-tall">
                 <img src="assets/perfil.png">
@@ -75,8 +85,10 @@
         </div>
     </main>
 
-    <footer data-anime="bottom">
+    <footer id="footer" data-anime="bottom">
         <p>Felipe Henrique Micheletto - Estudante de Ciências da Computação da Universidade FUMEC.</p>
+        <p>Ícones feitos por <a href="https://icon54.com/" title="Pixel perfect">Pixel perfect</a> from <a
+                href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a></p>
     </footer>
 </body>
 
