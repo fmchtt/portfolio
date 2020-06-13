@@ -82,6 +82,7 @@ hr {
 
 .card-tall > img {
     max-width: 100%;
+    max-height: 60%;
     border-radius: 5px;
 }
 
@@ -182,13 +183,64 @@ footer > p > a {
 }
 
 
-@media (max-width: 425px) {
+@media (min-width: 320px) and (max-width: 600px) {
+    nav {
+        position: initial;
+        text-align: center;
+    }
+
+    nav > ul > li{
+        top: 0;
+        display: inline;
+    }
+    
+    li > a > img{
+        width: 40px;
+        height: 40px;
+    }
+
     .cards-tall {
         display: block;
     }
 
     .cards-slim {
         display: block;
+    }
+
+    .card-tall {
+        margin-bottom: 20px;
+    }
+
+    .card-slim {
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px){
+    nav {
+        position: initial;
+        text-align: center;
+    }
+
+    nav > ul > li{
+        top: 0;
+        display: inline;
+    }
+
+    li > a > img{
+        width: 80px;
+        height: 80px;
+        padding: 0 60px;
+    }
+
+    .cards-tall {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .cards-slim {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     .card-tall {
