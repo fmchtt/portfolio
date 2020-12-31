@@ -1,0 +1,15 @@
+.card-slim {
+  box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.23);
+  margin: 0 1%;
+  height: 62px;
+  width: 100%;
+  border-radius: 5px;
+
+  display: flex;
+  align-items: center;
+}
+
+.card-slim > img {
+  padding: 0 10px;
+  height: 40px;
+}

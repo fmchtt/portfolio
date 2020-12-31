@@ -1,0 +1,16 @@
+.tecnologies #content-wrapper {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 25px;
+  max-width: 100vw;
+  padding: 15px;
+  margin: 0 5vw;
+}
+
+.tecnologies h1 {
+  margin: 15px;
+}
+
+.tecnologies > hr {
+  margin: 20px;
+}

@@ -1,0 +1,16 @@
+#projects #content-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 25px;
+  max-width: 100vw;
+  padding: 15px;
+  margin: 0 5vw;
+}
+
+#projects h1 {
+  margin: 15px 15px;
+}
+
+#projects > hr {
+  margin: 20px;
+}
