@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/fmchtt.github.io/portfolio/static/css/main.15a55b9c.chunk.css",
+    "main.js": "/fmchtt.github.io/portfolio/static/js/main.d82dccbb.chunk.js",
+    "main.js.map": "/fmchtt.github.io/portfolio/static/js/main.d82dccbb.chunk.js.map",
+    "runtime-main.js": "/fmchtt.github.io/portfolio/static/js/runtime-main.ce75693d.js",
+    "runtime-main.js.map": "/fmchtt.github.io/portfolio/static/js/runtime-main.ce75693d.js.map",
+    "static/js/2.296ad843.chunk.js": "/fmchtt.github.io/portfolio/static/js/2.296ad843.chunk.js",
+    "static/js/2.296ad843.chunk.js.map": "/fmchtt.github.io/portfolio/static/js/2.296ad843.chunk.js.map",
+    "index.html": "/fmchtt.github.io/portfolio/index.html",
+    "static/css/main.15a55b9c.chunk.css.map": "/fmchtt.github.io/portfolio/static/css/main.15a55b9c.chunk.css.map",
+    "static/js/2.296ad843.chunk.js.LICENSE.txt": "/fmchtt.github.io/portfolio/static/js/2.296ad843.chunk.js.LICENSE.txt",
+    "static/media/api.93fdb680.PNG": "/fmchtt.github.io/portfolio/static/media/api.93fdb680.PNG",
+    "static/media/barcetto.413ebbdd.PNG": "/fmchtt.github.io/portfolio/static/media/barcetto.413ebbdd.PNG",
+    "static/media/cde.ac733238.png": "/fmchtt.github.io/portfolio/static/media/cde.ac733238.png",
+    "static/media/github.8d1f33b2.png": "/fmchtt.github.io/portfolio/static/media/github.8d1f33b2.png",
+    "static/media/gmail.5d62da2c.png": "/fmchtt.github.io/portfolio/static/media/gmail.5d62da2c.png",
+    "static/media/linkedin.a3423cb8.png": "/fmchtt.github.io/portfolio/static/media/linkedin.a3423cb8.png",
+    "static/media/nodejs.4ae1838f.png": "/fmchtt.github.io/portfolio/static/media/nodejs.4ae1838f.png",
+    "static/media/perfil.db84dcd4.jpg": "/fmchtt.github.io/portfolio/static/media/perfil.db84dcd4.jpg",
+    "static/media/rest.425a5069.png": "/fmchtt.github.io/portfolio/static/media/rest.425a5069.png",
+    "static/media/sitevue.7420a7e9.png": "/fmchtt.github.io/portfolio/static/media/sitevue.7420a7e9.png",
+    "static/media/typescript.5415cac2.png": "/fmchtt.github.io/portfolio/static/media/typescript.5415cac2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ce75693d.js",
+    "static/js/2.296ad843.chunk.js",
+    "static/css/main.15a55b9c.chunk.css",
+    "static/js/main.d82dccbb.chunk.js"
+  ]
+}
