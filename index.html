@@ -1,98 +1,200 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Portfólio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script defer src="main.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Portifólio</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script defer src='main.js'></script>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-</head>
-
-<body id="back">
+  <body id="back">
     <header>
-        <div id="presentation" data-anime="top">
-            <img id="icon" src="assets/perfil.jpg" class="apresentacao">
-        </div>
+      <div id="presentation" data-anime="top">
+        <img id="icon" src="assets/perfil.jpg" class="apresentacao" />
+      </div>
     </header>
-    <button id='changer' data-anime="left" onclick="escurece()"><img src='assets/lua.png'></button>
     <main data-anime="bottom">
-        <h1>Bem vindo ao meu portifólio!!</h1>
-            <p>Meu nome é Felipe Micheletto, tenho 18 anos, estou aqui para mostrar do que sou capaz,
-                confira abaixo e explore a vontade tudo o que já fiz.</p>
-        <h1>Meus Projetos</h1>
-        <section class="cards-tall" data-anime="left">
-            <div class="card-tall">
-                <img src="assets/barcetto.PNG">
-                <hr>
-                <h3>Site empresarial</h3>
-                <p>Site feito com o intuito de testar as possibilidades do HTML, JS e CSS em uma página, adicionando todos os recursos que uma empresa poderia querer exibir e tentando fazer uma interface agradavel visualmente.</p>
-            </div>
-            <div class="card-tall">
-                <img src="assets/cde.png">
-                <hr>
-                <h3>Controle de estoque</h3>
-                <p>Programa feito tendo como base uma empresa pequena que necessita de uma programa para gerenciar estoque, foi feito para estudar C# incluindo acessos ao banco de dados MSSQL posteriormente aderindo ao PostGreeSQL.</p>
-            </div>
-            <div class="card-tall">
-                <img src="assets/api.PNG">
-                <hr>
-                <h3>API Web com Node.js</h3>
-                <p>API feita com mongobd e nodejs para ser consumida com Axios em aplicação Vue.JS ou qualquer outra necessidade, feita para estudar o uso de banco de dados na web.</p>
-            </div>
-            <div class="card-tall">
-                <img src="assets/sitevue.png">
-                <hr>
-                <h3>Site em Vue.js</h3>
-                <p>Site feito em vue com intuito de estudar o consumo de API rest, e iniciar a criação de um sistema usando auth com jwt, uso de axios e estudo de requisições http usando o video do canal Descompila no Youtube como base.</p>
-            </div>
-        </section>
-        <h1>Tecnologias que conheço</h1>
-        <div class="cards-slim" data-anime="right">
-            <div class="card-slim">
-                <img src="assets/html5.png">
-                <h3>HTML 5</h3>
-            </div>
-            <div class="card-slim">
-                <img src="assets/css3.png">
-                <h3>CSS3</h3>
-            </div>
-            <div class="card-slim">
-                <img src="assets/javascript.png">
-                <h3>Javascript</h3>
-            </div>
-            <div class="card-slim">
-                <img src="assets/Csharp.png">
-                <h3>.Net C#</h3>
-            </div>
-            <div class="card-slim">
-                <img src="assets/sql.png">
-                <h3>SQL</h3>
-            </div>
-            <div class="card-slim">
-                <img src="assets/nodejs.png">
-                <h3>Node.Js</h3>
-            </div>
-            <div class="card-slim">
-                <img src="assets/vuejs.png">
-                <h3>Vue.Js</h3>
-            </div>
+      <h1>Bem vindo ao meu portifólio!!</h1>
+      <p>
+        Meu nome é Felipe Micheletto, tenho 19 anos, estou aqui para mostrar do
+        que sou capaz, confira abaixo e explore a vontade tudo o que já fiz.
+      </p>
+
+      <h1>Sobre Mim</h1>
+      <p>
+        Sou estudante de Ciências da Computação na Universidade FUMEC, estou
+        fazendo diversos cursos na empresa Alura, cursos como DevOps, Docker,
+        Node, React entre outros, sou bastante focado, gosto muito de estudar
+        sobre tecnologias e aprender mais sobre, sempre estou buscando me
+        atualizar e ser melhor desenvolvendo.
+      </p>
+
+      <h1>Meus Projetos</h1>
+      <section class="cards-tall" data-anime="left">
+        <div class="card-tall">
+          <a
+            href="https://github.com/fmchtt/SuperWeather"
+            target="_blank"
+            rel="noopener"
+          >
+            <img src="assets/superweather.png" />
+          </a>
+          <hr />
+          <h3>SuperWeather</h3>
+          <p>
+            Feito com base no desafio da
+            <a
+              href="https://devchallenges.io/challenges/mM1UIenRhK808W8qmLWv"
+              rel="noopener"
+              target="_blank"
+              >DevChallenges</a
+            >
+            para aprimoramento do conhecimento sobre a linguagem react, alem de
+            consumo de API's externas
+          </p>
         </div>
+        <div class="card-tall">
+          <a
+            href="https://github.com/rocketseat-education/nlw-03-omnistack"
+            target="_blank"
+            rel="noopener"
+          >
+            <img src="assets/nlw.png" s
+          /></a>
+          <hr />
+          <h3>Happy - NLW</h3>
+          <p>
+            Feito juntamente ao evento de aprendizado da RocketSeat chamado de
+            NLW, feito usando React, React Native, Node, typescript e SQLite,
+            alem de aprender React com typescript, ainda foi ensinado a fazer
+            integração com API's.
+          </p>
+        </div>
+        <div class="card-tall">
+          <a
+            href="https://github.com/fmchtt/api-web"
+            target="_blank"
+            rel="noopener"
+          >
+            <img src="assets/api.PNG"
+          /></a>
+          <hr />
+          <h3>API Web com Node.js</h3>
+          <p>
+            API feita com mongobd e nodejs para ser consumida com Axios em
+            aplicação Vue.JS ou qualquer outra necessidade, feita para estudar o
+            uso de banco de dados na web.
+          </p>
+        </div>
+        <div class="card-tall">
+          <a
+            href="https://github.com/fmchtt/VueStoreTest"
+            target="_blank"
+            rel="noopener"
+          >
+            <img src="assets/vuestore.png"
+          /></a>
+          <hr />
+          <h3>Vue.js Store</h3>
+          <p>
+            Site feito em vue com intuito de estudar o consumo de API rest, e
+            iniciar a criação de um sistema usando auth com jwt, uso de axios e
+            estudo de requisições http usando o video do canal Descompila no
+            Youtube como base.
+          </p>
+        </div>
+      </section>
+      <h1>Tecnologias que conheço</h1>
+      <div class="cards-slim" data-anime="right">
+        <div class="card-slim">
+          <img src="assets/html5.png" />
+          <h3>HTML 5</h3>
+        </div>
+        <div class="card-slim">
+          <img src="assets/css3.png" />
+          <h3>CSS3</h3>
+        </div>
+        <div class="card-slim">
+          <img src="assets/javascript.png" />
+          <h3>Javascript</h3>
+        </div>
+        <div class="card-slim">
+          <img src="assets/sql.png" />
+          <h3>SQL</h3>
+        </div>
+        <div class="card-slim">
+          <img src="assets/nodejs.png" />
+          <h3>Node.Js</h3>
+        </div>
+        <div class="card-slim">
+          <img src="assets/vuejs.png" />
+          <h3>Vue.Js</h3>
+        </div>
+        <div class="card-slim">
+          <img src="assets/react.png" />
+          <h3>React</h3>
+        </div>
+        <div class="card-slim">
+          <img src="assets/docker.png" />
+          <h3>Docker</h3>
+        </div>
+        <div class="card-slim">
+          <img src="assets/typescript.png" />
+          <h3>Typescript</h3>
+        </div>
+        <div class="card-slim">
+          <img src="assets/mongo.png" />
+          <h3>MongoDB</h3>
+        </div>
+        <div class="card-slim">
+          <img src="assets/rest.png" />
+          <h3>Rest API</h3>
+        </div>
+      </div>
+      <p>
+        Todas essas tecnologias foram aprendidaz por meio de cursos e colocadas
+        em pratica nos projetos acima, clique na imagem do card do projeto para
+        ser levado ate a pagina do respectivo no Github e confira o código.
+      </p>
     </main>
     <nav data-anime="left">
-        <ul>
-            <li><a href="https://www.linkedin.com/in/felipe-micheletto-9670b71b0"><img src="assets/linkedin.png"></a></li>
-            <li><a href="https://github.com/fmchtt"><img src="assets/github.png"></a></li>
-            <li><a href="mailto:felipehmicheletto@gmail.com"><img src="assets/gmail.png"></a></li>
-        </ul>
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/felipe-micheletto-9670b71b0"
+            ><img src="assets/linkedin.png"
+          /></a>
+        </li>
+        <li>
+          <a href="https://github.com/fmchtt"
+            ><img src="assets/github.png"
+          /></a>
+        </li>
+        <li>
+          <a href="mailto:felipehmicheletto@gmail.com"
+            ><img src="assets/gmail.png"
+          /></a>
+        </li>
+      </ul>
     </nav>
     <footer id="footer" data-anime="bottom">
-        <p>Felipe Henrique Micheletto - Estudante de Ciências da Computação da Universidade FUMEC.</p>
-        <p>Ícones feitos por <a href="https://icon54.com/" title="Pixel perfect">Pixel perfect</a> from <a
-                href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a></p>
+      <p>
+        Felipe Henrique Micheletto - Estudante de Ciências da Computação da
+        Universidade FUMEC.
+      </p>
+      <p>
+        Ícones feitos por
+        <a href="https://icon54.com/" title="Pixel perfect">Pixel perfect</a>
+        from
+        <a href="https://www.flaticon.com/br/" title="Flaticon"
+          >www.flaticon.com</a
+        >
+      </p>
     </footer>
-</body>
-
+  </body>
 </html>
