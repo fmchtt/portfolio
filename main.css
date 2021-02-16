@@ -176,7 +176,7 @@ hr {
   }
 
   nav ul {
-    width: 90vw;
+    width: 100vw;
 
     display: flex;
     justify-content: space-around;
