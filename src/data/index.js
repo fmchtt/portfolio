@@ -14,6 +14,10 @@ import DockerImage from "../assets/images/tecnologies/docker.png";
 import TsImage from "../assets/images/tecnologies/typescript.png";
 import MongoImage from "../assets/images/tecnologies/mongo.png";
 import RnImage from "../assets/images/tecnologies/reactnative.png";
+import PythonImage from "../assets/images/tecnologies/python.png";
+import DrfImage from "../assets/images/tecnologies/drf.png";
+import AwsImage from "../assets/images/tecnologies/aws.jpg";
+import DjangoImage from "../assets/images/tecnologies/django.png";
 
 export const projects = [
   {
@@ -51,17 +55,54 @@ export const tecnologies = [
   {
     name: "CSS 3",
     image: CssImage,
-    percentage: "80%",
+    percentage: "87%",
   },
   {
     name: "Javascript",
     image: JsImage,
+    percentage: "84%",
+  },
+  {
+    name: "React",
+    image: ReactImage,
+    percentage: "83%",
+  },
+  {
+    name: "React Native",
+    image: RnImage,
+    percentage: "77%",
+  },
+  {
+    name: "Python",
+    image: PythonImage,
     percentage: "80%",
+    tooltip:
+      "Uso principalmente para criação de backend com Django e FastApi, e algumas vezes com crawlers",
+  },
+  {
+    name: "Django",
+    image: DjangoImage,
+    percentage: "76%",
+    tooltip:
+      "Criação de views, templates, envio de emails, formulários, e gerenciamento de sistema com Django",
+  },
+  {
+    name: "Django Rest Framework",
+    image: DrfImage,
+    percentage: "78%",
+    tooltip: "Criação de api's otimizadas, escaláveis e simples",
   },
   {
     name: "SQL",
     image: SqlImage,
     percentage: "60%",
+  },
+  {
+    name: "AWS",
+    image: AwsImage,
+    percentage: "45%",
+    tooltip:
+      "Configuração de Deployments ElasticBeanstalk, arquivos supervisord, conexão e configuração EC2, gerenciamento RDS, deploy Amplify, entre outras coisas",
   },
   {
     name: "Node.Js",
@@ -72,11 +113,6 @@ export const tecnologies = [
     name: "Vue.Js",
     image: VueImage,
     percentage: "40%",
-  },
-  {
-    name: "React",
-    image: ReactImage,
-    percentage: "80%",
   },
   {
     name: "Docker",
@@ -92,10 +128,5 @@ export const tecnologies = [
     name: "MongoDb",
     image: MongoImage,
     percentage: "40%",
-  },
-  {
-    name: "React Native",
-    image: RnImage,
-    percentage: "80%",
   },
 ];

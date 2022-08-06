@@ -9,6 +9,12 @@ export const ProfileWrapper = styled.div`
   height: 40vh;
 
   background: #373b46;
+
+  @media (max-width: 840px) {
+    flex-direction: column;
+    height: auto;
+    padding-top: 80px;
+  }
 `;
 
 export const ProfileContent = styled.div`
@@ -31,6 +37,11 @@ export const ProfileImage = styled.img`
   aspect-ratio: 1 / 1;
 
   border-radius: 50%;
+
+  @media (max-width: 840px) {
+    height: auto;
+    width: 50%;
+  }
 `;
 
 export const SectionTitle = styled.h1`
@@ -46,6 +57,30 @@ export const Grid = styled.div`
 
   margin: 5vh 20vw;
   gap: 20px;
+
+  @media (max-width: 1920px) {
+    margin: 5vh 15vw;
+  }
+
+  @media (max-width: 1920px) {
+    margin: 5vh 8vw;
+  }
+
+  @media (max-width: 1200px) {
+    margin: 5vh 5vw;
+  }
+
+  @media (max-width: 980px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media (max-width: 700px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 500px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 `;
 
 export const ProjectCard = styled.div`
@@ -82,6 +117,7 @@ export const TecnologyCardImage = styled.img`
   height: 90%;
   object-fit: contain;
   aspect-ratio: 1 / 1;
+  border-radius: 20px;
 `;
 
 export const CardTitle = styled.h2`

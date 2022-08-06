@@ -21,11 +21,11 @@ import {
   ProgressBar,
   Footer,
 } from "./styles";
+import Tooltip from "react-tooltip";
 
 const Home = () => {
   return (
     <>
-      <SocialBar />
       <ProfileWrapper>
         <ProfileImage src={PerfilImage} />
         <ProfileContent>
@@ -40,11 +40,12 @@ const Home = () => {
           </ProfileText>
         </ProfileContent>
       </ProfileWrapper>
+      <SocialBar />
       <SectionTitle>Projetos</SectionTitle>
       <Grid>
-        {projects.map((project) => {
+        {projects.map((project, idx) => {
           return (
-            <ProjectCard>
+            <ProjectCard key={idx + project.title}>
               <CardImage src={project.image} alt={project.title} />
               <CardBody>
                 <CardTitle>{project.title}</CardTitle>
@@ -56,9 +57,9 @@ const Home = () => {
       </Grid>
       <SectionTitle>Tecnologias</SectionTitle>
       <Grid>
-        {tecnologies.map((tecnology) => {
+        {tecnologies.map((tecnology, idx) => {
           return (
-            <TecnologyCard>
+            <TecnologyCard key={idx} data-tip={tecnology.tooltip}>
               <TecnologyCardImage src={tecnology.image} alt={tecnology.name} />
               <CardBody noBorder>
                 <CardTitle>{tecnology.name}</CardTitle>
@@ -70,6 +71,7 @@ const Home = () => {
           );
         })}
       </Grid>
+      <Tooltip place="top" effect="solid" type="dark" />
       <Footer></Footer>
     </>
   );
